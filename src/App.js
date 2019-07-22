@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './App.css'
 import CardList from './components/CardList'
 import SearchBox from './components/SearchBox'
 

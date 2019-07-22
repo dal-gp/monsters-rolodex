@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './SearchBox.css'
+
 const SearchBox = ({ value, onTextChange }) => {
   return (
     <div>
@@ -9,6 +11,7 @@ const SearchBox = ({ value, onTextChange }) => {
         autoFocus
         value={value}
         onChange={e => onTextChange(e)}
+        className='search'
       />
     </div>
   )
