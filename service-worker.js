@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "git%20remote%20add%20origin%20https:%20//dsgarbujapun.github.io/monsters-rolodex/precache-manifest.9137fb3d4f3eedf7786d7ea3d7846038.js"
+  "git%20remote%20add%20origin%20https://dsgarbujapun.github.io/monsters-rolodex/precache-manifest.9334492a4dca33c99e379fb993610d06.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("git%20remote%20add%20origin%20https:%20//dsgarbujapun.github.io/monsters-rolodex/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("git%20remote%20add%20origin%20https://dsgarbujapun.github.io/monsters-rolodex/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
