@@ -26,6 +26,7 @@ class App extends React.Component {
     })
     return (
       <div className='App'>
+        <h1>Monster Rolodex</h1>
         <SearchBox
           value={this.state.text}
           // onTextChange={e => this.setState({ text: e.target.value })}
