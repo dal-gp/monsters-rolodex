@@ -2,19 +2,20 @@ import React from 'react'
 
 import './SearchBox.css'
 
-const SearchBox = ({ value, onTextChange }) => {
-  return (
-    <div>
-      <input
-        type='search'
-        palceholder='search monsters'
-        autoFocus
-        value={value}
-        onChange={e => onTextChange(e)}
-        className='search'
-      />
-    </div>
-  )
+class SearchBox extends React.Component {
+  render() {
+    return (
+      <div>
+        <input
+          className='search'
+          type='search'
+          placeholder={this.props.placeholder}
+          value={this.props.text}
+          onChange={this.props.onTextChange}
+        />
+      </div>
+    )
+  }
 }
 
 export default SearchBox
